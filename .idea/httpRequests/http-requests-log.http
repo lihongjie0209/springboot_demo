@@ -1,0 +1,40 @@
+GET http://localhost:8080/getall2
+
+<> 2020-05-10T052637.200.json
+
+###
+
+GET http://localhost:8080/getall2
+
+<> 2020-05-10T052435.500.json
+
+###
+
+GET http://localhost:8080/getall1
+
+<> 2020-05-10T045539.200.json
+
+###
+
+GET http://localhost:8080/getall1
+
+<> 2020-05-10T045510.200.json
+
+###
+
+GET http://localhost:8080/getall1
+
+<> 2020-05-10T045423.200.json
+
+###
+
+GET http://localhost:8080/getall1
+
+<> 2020-05-10T045336.200.json
+
+###
+
+GET https://localhost:8080/getall1
+
+###
+

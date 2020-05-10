@@ -21,6 +21,7 @@
         </dependency>
 
     </dependencies>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -48,7 +49,24 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <build>
+        <pluginManagement>
 
+            <plugins>
+                <plugin>
+                    <groupId>org.mybatis.generator</groupId>
+                    <artifactId>mybatis-generator-maven-plugin</artifactId>
+                    <version>1.4.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>aliyun</id>
+            <url>https://maven.aliyun.com/repository/central</url>
+        </pluginRepository>
+    </pluginRepositories>
     <repositories>
         <repository>
             <id>aliyun</id>
